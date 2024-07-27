@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header{
+  width: 100vw;
+  /* display:flex; */
+  /* align-items: center; */
+
+  /* height: 100vh; */
+}
+
+header img{
+ align-items: center;
+ justify-content: center;
+ margin:20px 775px 0px 775px ; 
+}
+
+header h1{
+  text-align: center;
+}
+
+#game-container{
+  max-width: 55rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgb(170, 181, 154);
+  position: relative;
+  list-style: none;
+  border:3px solid black;
+}
+#Game-board{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 70px;
+  padding: 40px;
+  border: 3px solid red;
+  
+}
+
+#Game-board li{
+  list-style: none;
+  display: flex;
+  /* border: 2px solid red; */
+  /* align-items: center; */
+  }
+
+  #Game-board li button{
+    margin: 10px;
+    padding: 30px;
+    /* list-style: none; */
+    /* display: flex; */
+    border: 2px solid rgb(3, 2, 16);
+    border-radius: 5px;
+  }
+
+
+#players{
+  list-style: none;
+  /* padding: 0; */
+  /* margin: 1rem 0; */
+  display:flex;
+  justify-content: space-between;
+  border:5px solid brown;
+  border-radius: 5px;
+
+}
+#players li{
+  /* display: flex; */
+  /* justify-content:left; */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(80, 7, 7);
+  position:relative;
+  display: inline-block;
+  justify-content:space-evenly;
+  margin: 30px;
+  /* border:2px solid blue; */
+
+}
+.player-symbol{
+  padding: 0px 45px;
+} 
+span.player-name{
+  display: inline-block;
+  padding: 7px;
+  width: 100px;
+  height:10px;
+  /* margin-top: 15px; */
+  border:3px solid rgb(38, 36, 36)
+}
+button{
+  padding: 10px;
+  /* font-size: px; */
+  width:45px;
+  /* margin-bottom: 15px; */
+}
